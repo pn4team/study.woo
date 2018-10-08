@@ -1,0 +1,74 @@
+2018-10-04T15:40:21+00:00 CRITICAL Uncaught Error: Call to undefined function estore_primary_menu() in C:\OpenServer\domains\study.woo\wp-content\themes\e-store\header.php:150
+Stack trace:
+#0 C:\OpenServer\domains\study.woo\wp-includes\template.php(688): require_once()
+#1 C:\OpenServer\domains\study.woo\wp-includes\template.php(647): load_template('C:\\OpenServer\\d...', true)
+#2 C:\OpenServer\domains\study.woo\wp-includes\general-template.php(41): locate_template(Array, true)
+#3 C:\OpenServer\domains\study.woo\wp-content\themes\e-store\index.php(15): get_header()
+#4 C:\OpenServer\domains\study.woo\wp-includes\template-loader.php(74): include('C:\\OpenServer\\d...')
+#5 C:\OpenServer\domains\study.woo\wp-blog-header.php(19): require_once('C:\\OpenServer\\d...')
+#6 C:\OpenServer\domains\study.woo\index.php(17): require('C:\\OpenServer\\d...')
+#7 {main}
+  thrown
+
+2018-10-04T15:40:21+00:00 CRITICAL Uncaught Error: Call to undefined function estore_primary_menu() in C:\OpenServer\domains\study.woo\wp-content\themes\e-store\header.php:150
+Stack trace:
+#0 C:\OpenServer\domains\study.woo\wp-includes\template.php(688): require_once()
+#1 C:\OpenServer\domains\study.woo\wp-includes\template.php(647): load_template('C:\\OpenServer\\d...', true)
+#2 C:\OpenServer\domains\study.woo\wp-includes\general-template.php(41): locate_template(Array, true)
+#3 C:\OpenServer\domains\study.woo\wp-content\themes\e-store\index.php(15): get_header()
+#4 C:\OpenServer\domains\study.woo\wp-includes\template-loader.php(74): include('C:\\OpenServer\\d...')
+#5 C:\OpenServer\domains\study.woo\wp-blog-header.php(19): require_once('C:\\OpenServer\\d...')
+#6 C:\OpenServer\domains\study.woo\index.php(17): require('C:\\OpenServer\\d...')
+#7 {main}
+  thrown
+
+2018-10-04T15:40:22+00:00 CRITICAL Uncaught Error: Call to undefined function estore_primary_menu() in C:\OpenServer\domains\study.woo\wp-content\themes\e-store\header.php:150
+Stack trace:
+#0 C:\OpenServer\domains\study.woo\wp-includes\template.php(688): require_once()
+#1 C:\OpenServer\domains\study.woo\wp-includes\template.php(647): load_template('C:\\OpenServer\\d...', true)
+#2 C:\OpenServer\domains\study.woo\wp-includes\general-template.php(41): locate_template(Array, true)
+#3 C:\OpenServer\domains\study.woo\wp-content\themes\e-store\index.php(15): get_header()
+#4 C:\OpenServer\domains\study.woo\wp-includes\template-loader.php(74): include('C:\\OpenServer\\d...')
+#5 C:\OpenServer\domains\study.woo\wp-blog-header.php(19): require_once('C:\\OpenServer\\d...')
+#6 C:\OpenServer\domains\study.woo\index.php(17): require('C:\\OpenServer\\d...')
+#7 {main}
+  thrown
+
+2018-10-04T15:40:22+00:00 CRITICAL Uncaught Error: Call to undefined function estore_primary_menu() in C:\OpenServer\domains\study.woo\wp-content\themes\e-store\header.php:150
+Stack trace:
+#0 C:\OpenServer\domains\study.woo\wp-includes\template.php(688): require_once()
+#1 C:\OpenServer\domains\study.woo\wp-includes\template.php(647): load_template('C:\\OpenServer\\d...', true)
+#2 C:\OpenServer\domains\study.woo\wp-includes\general-template.php(41): locate_template(Array, true)
+#3 C:\OpenServer\domains\study.woo\wp-content\themes\e-store\404.php(10): get_header()
+#4 C:\OpenServer\domains\study.woo\wp-includes\template-loader.php(74): include('C:\\OpenServer\\d...')
+#5 C:\OpenServer\domains\study.woo\wp-blog-header.php(19): require_once('C:\\OpenServer\\d...')
+#6 C:\OpenServer\domains\study.woo\index.php(17): require('C:\\OpenServer\\d...')
+#7 {main}
+  thrown
+
+2018-10-04T17:02:51+00:00 CRITICAL Uncaught Error: Class 'EST_walker_Nav' not found in C:\OpenServer\domains\study.woo\wp-content\themes\e-store\includes\navigations.php:13
+Stack trace:
+#0 C:\OpenServer\domains\study.woo\wp-content\themes\e-store\header.php(150): estore_primary_menu()
+#1 C:\OpenServer\domains\study.woo\wp-includes\template.php(688): require_once('C:\\OpenServer\\d...')
+#2 C:\OpenServer\domains\study.woo\wp-includes\template.php(647): load_template('C:\\OpenServer\\d...', true)
+#3 C:\OpenServer\domains\study.woo\wp-includes\general-template.php(41): locate_template(Array, true)
+#4 C:\OpenServer\domains\study.woo\wp-content\themes\e-store\page.php(15): get_header()
+#5 C:\OpenServer\domains\study.woo\wp-includes\template-loader.php(74): include('C:\\OpenServer\\d...')
+#6 C:\OpenServer\domains\study.woo\wp-blog-header.php(19): require_once('C:\\OpenServer\\d...')
+#7 C:\OpenServer\domains\study.woo\index.php(17): require('C:\\OpenServer\\d...')
+#8 {main}
+  thrown
+
+2018-10-04T17:02:51+00:00 CRITICAL Uncaught Error: Class 'EST_walker_Nav' not found in C:\OpenServer\domains\study.woo\wp-content\themes\e-store\includes\navigations.php:13
+Stack trace:
+#0 C:\OpenServer\domains\study.woo\wp-content\themes\e-store\header.php(150): estore_primary_menu()
+#1 C:\OpenServer\domains\study.woo\wp-includes\template.php(688): require_once('C:\\OpenServer\\d...')
+#2 C:\OpenServer\domains\study.woo\wp-includes\template.php(647): load_template('C:\\OpenServer\\d...', true)
+#3 C:\OpenServer\domains\study.woo\wp-includes\general-template.php(41): locate_template(Array, true)
+#4 C:\OpenServer\domains\study.woo\wp-content\themes\e-store\404.php(10): get_header()
+#5 C:\OpenServer\domains\study.woo\wp-includes\template-loader.php(74): include('C:\\OpenServer\\d...')
+#6 C:\OpenServer\domains\study.woo\wp-blog-header.php(19): require_once('C:\\OpenServer\\d...')
+#7 C:\OpenServer\domains\study.woo\index.php(17): require('C:\\OpenServer\\d...')
+#8 {main}
+  thrown
+

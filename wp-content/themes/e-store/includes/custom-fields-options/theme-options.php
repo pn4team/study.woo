@@ -6,11 +6,38 @@ use Carbon_Fields\Field;
 Container::make( 'theme_options', 'Настройки темы' )
     ->set_icon( 'dashicons-carrot' )
     ->add_tab( __('Шапка'), array(
-        Field::make( 'image', 'est_header_logo', 'Логотип' )
-          ->set_width( 10 ),
-        Field::make( 'text', 'crb_first_name', 'First Name' ),
-        Field::make( 'text', 'crb_last_name', 'Last Name' ),
-        Field::make( 'text', 'crb_position', 'Position' ),
+        Field::make( 'select', 'est_header_logic', 'Будет ли использоваться логотип?' )
+		->add_options(array(
+		  'yes' => 'Да, буду использовать лого',
+		  'no' => 'Нет, буду использовать текст'
+		)),
+		Field::make( 'image', 'est_header_logo', 'Логотип' )
+		->set_conditional_logic(array(
+			  'relation' => 'AND',
+			  array(
+				  'field' => 'est_header_logic',
+				  'value' => 'yes',
+				  'compare' => '=',
+			  )
+		  )),
+        Field::make( 'text', 'est_header_site_name', 'Название сайта' )
+		->set_conditional_logic(array(
+			  'relation' => 'AND',
+			  array(
+				  'field' => 'est_header_logic',
+				  'value' => 'no',
+				  'compare' => '=',
+			  )
+		  )),
+        Field::make( 'text', 'est_header_site_desc', 'Описание сайта' )
+		->set_conditional_logic(array(
+			  'relation' => 'AND',
+			  array(
+				  'field' => 'est_header_logic',
+				  'value' => 'no',
+				  'compare' => '=',
+			  )
+		  )),
     ) )
     ->add_tab( __('Подвал'), array(
         Field::make( 'text', 'crb_email', 'Notification Email' ),

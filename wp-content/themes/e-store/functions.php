@@ -74,6 +74,11 @@ require get_template_directory() . '/includes/template-functions.php';
 require get_template_directory() . '/includes/customizer.php';
 
 /**
+ * ajax.php file.
+ */
+require get_template_directory() . '/includes/ajax.php';
+
+/**
  * Load Jetpack compatibility file.
  */
 if ( defined( 'JETPACK__VERSION' ) ) {
@@ -85,6 +90,8 @@ if ( defined( 'JETPACK__VERSION' ) ) {
  */
 if ( class_exists( 'WooCommerce' ) ) {
 	require get_template_directory() . '/includes/woocommerce.php';
+	require get_template_directory() . '/includes/navigations.php';
 	require get_template_directory() . '/woocommerce/includes/wc-functions.php';
 	require get_template_directory() . '/woocommerce/includes/wc-functions-remove.php';
+	require get_template_directory() . '/woocommerce/includes/wc_functions_cart.php';
 }

@@ -1,0 +1,39 @@
+2018-09-28T15:36:29+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_contents_count() on null in C:\OpenServer\domains\study.woo\wp-content\themes\e-store\includes\woocommerce.php:224
+Stack trace:
+#0 C:\OpenServer\domains\study.woo\wp-content\themes\e-store\includes\woocommerce.php(249): estore_woocommerce_cart_link()
+#1 C:\OpenServer\domains\study.woo\wp-content\themes\e-store\woocommerce\includes\wc_functions_cart.php(9): estore_woocommerce_header_cart()
+#2 C:\OpenServer\domains\study.woo\wp-content\themes\e-store\functions.php(95): require('C:\\OpenServer\\d...')
+#3 C:\OpenServer\domains\study.woo\wp-settings.php(426): include('C:\\OpenServer\\d...')
+#4 C:\OpenServer\domains\study.woo\wp-config.php(89): require_once('C:\\OpenServer\\d...')
+#5 C:\OpenServer\domains\study.woo\wp-load.php(37): require_once('C:\\OpenServer\\d...')
+#6 C:\OpenServer\domains\study.woo\wp-blog-header.php(13): require_once('C:\\OpenServer\\d...')
+#7 C:\OpenServer\domains\study.woo\index.php(17): require('C:\\OpenServer\\d...')
+#8 {main}
+  thrown
+
+2018-09-28T15:36:52+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_contents_count() on null in C:\OpenServer\domains\study.woo\wp-content\themes\e-store\includes\woocommerce.php:224
+Stack trace:
+#0 C:\OpenServer\domains\study.woo\wp-content\themes\e-store\includes\woocommerce.php(249): estore_woocommerce_cart_link()
+#1 C:\OpenServer\domains\study.woo\wp-content\themes\e-store\woocommerce\includes\wc_functions_cart.php(9): estore_woocommerce_header_cart()
+#2 C:\OpenServer\domains\study.woo\wp-content\themes\e-store\functions.php(95): require('C:\\OpenServer\\d...')
+#3 C:\OpenServer\domains\study.woo\wp-settings.php(426): include('C:\\OpenServer\\d...')
+#4 C:\OpenServer\domains\study.woo\wp-config.php(89): require_once('C:\\OpenServer\\d...')
+#5 C:\OpenServer\domains\study.woo\wp-load.php(37): require_once('C:\\OpenServer\\d...')
+#6 C:\OpenServer\domains\study.woo\wp-blog-header.php(13): require_once('C:\\OpenServer\\d...')
+#7 C:\OpenServer\domains\study.woo\index.php(17): require('C:\\OpenServer\\d...')
+#8 {main}
+  thrown
+
+2018-09-28T17:03:37+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_contents_count() on null in C:\OpenServer\domains\study.woo\wp-content\themes\e-store\includes\woocommerce.php:224
+Stack trace:
+#0 C:\OpenServer\domains\study.woo\wp-content\themes\e-store\includes\woocommerce.php(249): estore_woocommerce_cart_link()
+#1 C:\OpenServer\domains\study.woo\wp-content\themes\e-store\woocommerce\includes\wc_functions_cart.php(9): estore_woocommerce_header_cart()
+#2 C:\OpenServer\domains\study.woo\wp-content\themes\e-store\functions.php(95): require('C:\\OpenServer\\d...')
+#3 C:\OpenServer\domains\study.woo\wp-settings.php(426): include('C:\\OpenServer\\d...')
+#4 C:\OpenServer\domains\study.woo\wp-config.php(89): require_once('C:\\OpenServer\\d...')
+#5 C:\OpenServer\domains\study.woo\wp-load.php(37): require_once('C:\\OpenServer\\d...')
+#6 C:\OpenServer\domains\study.woo\wp-blog-header.php(13): require_once('C:\\OpenServer\\d...')
+#7 C:\OpenServer\domains\study.woo\index.php(17): require('C:\\OpenServer\\d...')
+#8 {main}
+  thrown
+

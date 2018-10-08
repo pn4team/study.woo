@@ -25,25 +25,49 @@
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'estore' ); ?></a>
 
 	<header id="masthead" class="site-header">
-		<div class="site-branding">
-			<?php
-			the_custom_logo();
-			if ( is_front_page() && is_home() ) :
-				?>
-				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-				<?php
-			else :
-				?>
-				<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
-				<?php
-			endif;
-			$estore_description = get_bloginfo( 'description', 'display' );
-			if ( $estore_description || is_customize_preview() ) :
-				?>
-				<p class="site-description"><?php echo $estore_description; /* WPCS: xss ok. */ ?></p>
-			<?php endif; ?>
-		</div><!-- .site-branding -->
-
+	<!-- header modal -->
+	
+	<script>
+		$('#myModal88').modal('show');
+	</script>  
+	<!-- header modal -->
+	<!-- header -->
+	<div class="header" id="home1">
+	  <?php 
+      /**
+	    * header_parts hook,
+        *@hooked estore_header_modal - 10
+        *@hooked estore_container_start - 15
+        *@hooked estore_header_icon_login - 20
+        *@hooked estore_header_logon - 30
+        *@hooked estore_header_search - 40
+        *@hooked estore_header_card - 50
+        *@hooked estore_container_end - 55
+        *@hooked estore_header_navi - 60
+	 */
+      do_action('header_parts') ?>
+	</div>
+	<!-- //header -->
+	<!-- navigation -->
+	<div class="navigation">
+		<div class="container">
+			<nav class="navbar navbar-default">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header nav_2">
+					<button type="button" class="navbar-toggle collapsed navbar-toggle1" data-toggle="collapse" data-target="#bs-megadropdown-tabs">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div> 
+				<div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
+				  <?php estore_primary_menu(); ?>
+				</div>
+			</nav>
+		</div>
+	</div>
+	<!-- //navigation -->
 		<nav id="site-navigation" class="main-navigation">
 			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'estore' ); ?></button>
 			<?php
